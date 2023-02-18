@@ -10,6 +10,7 @@ function App() {
   const ALCH_API_KEY = "INSERT_YOUR_ALCHEMY_API_KEY"; // don't do this in production - ever
   const CONTRACT_ADDRESS = "INSERT_YOUR_COUNTER_ADDRESS";
   const network = "goerli" // what network do you think we should use.  We want to use a testnet . . .
+  
   const provider = new ethers.AlchemyProvider(network, ALCH_API_KEY); // to access the blockchain we need acess to a node.  Alchemy runs some we can connect to.
 
   return (
