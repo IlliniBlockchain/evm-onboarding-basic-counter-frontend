@@ -12,9 +12,6 @@ function App() {
   const network = "goerli" // what network do you think we should use.  We want to use a testnet . . .
   const provider = new ethers.AlchemyProvider(network, ALCH_API_KEY); // to access the blockchain we need acess to a node.  Alchemy runs some we can connect to.
 
-  // async function setCount() {
-  //   count = getCount(provider, CONTRACT_ADDRESS)
-  // }
   return (
     <div className="App">
       <header className="App-header">
